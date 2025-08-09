@@ -1,5 +1,5 @@
-import { Quicksand, Bungee } from "next/font/google";
 import "./globals.css";
+import { Quicksand, Bungee } from "next/font/google";
 
 const quicksand = Quicksand({
   subsets: ["latin"],

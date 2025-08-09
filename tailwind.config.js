@@ -8,8 +8,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+  
+      },
+      fontFamily: {
+        quicksand: ["var(--font-quicksand)", "sans-serif"],
+        bungee: ["var(--font-bungee)", "cursive"],
       },
     },
   },
