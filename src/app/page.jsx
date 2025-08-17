@@ -7,6 +7,7 @@ import ShareButton from "./components/ShareButton";
 import BgButton from "./components/BgButton";
 import { MdLocationPin } from "react-icons/md";
 import BgModal from "./components/Modal";
+import ShareUI from "./components/ShareUI";
 
 export default function Home() {
   const [ip, setIp] = useState("");
@@ -105,7 +106,7 @@ export default function Home() {
           </div>
         </section>
         <div className="flex items-center gap-6 ">
-          <ShareButton />
+          <span className="hidden"><ShareButton /></span>
           {isModalOpen && (
             <BgModal
               onClose={() => setIsModalOpen(false)}
